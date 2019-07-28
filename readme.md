@@ -21,6 +21,8 @@ go build ./...
 
 ## Generation scripts
 
+Required only for generating the code from schema files. Ignore if you just want to run and the client and server.
+
 ```bash
 # server code generation
 remoto generate  schema/bank.remoto.go templates/client.go.plush -o client/stub/stub.go \
